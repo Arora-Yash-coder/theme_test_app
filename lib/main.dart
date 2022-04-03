@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
-          backgroundColor: selectedColor ?? Colors.grey,
+          backgroundColor: selectedColor ?? Colors.grey.shade800,
         ),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
